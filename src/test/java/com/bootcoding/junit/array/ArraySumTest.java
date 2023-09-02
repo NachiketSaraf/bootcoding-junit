@@ -3,6 +3,7 @@ package com.bootcoding.junit.array;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
@@ -35,8 +36,7 @@ public class ArraySumTest {
     public void testEven(){
         ArraySum arraySum = new ArraySum();
         int[] arr = {1,2,3,4,5};
-        ArrayList<Integer> actualSum = arraySum.getEven(arr);
-        int[] expectedSum = {2,4};
-        assertArrayEquals(expectedSum,actualSum);
+        ArrayList<Integer> ansList = arraySum.getEven(arr);
+        assertEquals(ansList, Arrays.asList(2,4));
     }
 }
