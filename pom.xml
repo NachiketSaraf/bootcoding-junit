@@ -7,6 +7,10 @@
     <groupId>groupId</groupId>
     <artifactId>bootcoding-junit</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+
+    
+=======
     <properties>
         <maven.compiler.source>20</maven.compiler.source>
         <maven.compiler.target>20</maven.compiler.target>
@@ -27,4 +31,5 @@
     </dependencies>
 
 
+>>>>>>> origin/main
 </project>

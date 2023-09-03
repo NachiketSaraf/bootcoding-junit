@@ -9,5 +9,8 @@
         <module name="bootcoding-junit" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bootcoding-junit" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
