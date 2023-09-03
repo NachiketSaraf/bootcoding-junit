@@ -2,7 +2,8 @@ package com.bootcoding.junit.array;
 
 import java.util.ArrayList;
 
-public class ArraySum {
+public class ArrayOperations {
+
     public int getSum(int[] num){
         int sum = 0;
         for (int n : num) {
