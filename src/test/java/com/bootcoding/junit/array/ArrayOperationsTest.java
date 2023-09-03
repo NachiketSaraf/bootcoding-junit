@@ -7,36 +7,36 @@ import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
-public class ArraySumTest {
+public class ArrayOperationsTest {
     @Test
     public void test(){
-        ArraySum arraySum = new ArraySum();
+        ArrayOperations arrayOperations = new ArrayOperations();
         int[] arr = {1,2,3,4,5};
-        int actualSum = arraySum.getSum(arr);
+        int actualSum = ArrayOperations.getSum(arr);
         int expectedSum = 15;
         assertEquals(expectedSum,actualSum);
     }
     @Test
     public void testNegative(){
-        ArraySum arraySum = new ArraySum();
+        ArrayOperations arrayOperations = new ArrayOperations();
         int[] arr = {-1,-2,-3,-4,-5};
-        int actualSum = arraySum.getSum(arr);
+        int actualSum = ArrayOperations.getSum(arr);
         int expectedSum = 15;
         assertEquals(expectedSum,actualSum);
     }
     @Test
     public void testMax(){
-        ArraySum arraySum = new ArraySum();
+        ArrayOperations arrayOperations = new ArrayOperations();
         int[] arr = {1,2,3,4,5};
-        int actualSum = arraySum.getMax(arr);
+        int actualSum = ArrayOperations.getMax(arr);
         int expectedSum = 5;
         assertEquals(expectedSum,actualSum);
     }
     @Test
     public void testEven(){
-        ArraySum arraySum = new ArraySum();
+        ArrayOperations arrayOperations = new ArrayOperations();
         int[] arr = {1,2,3,4,5};
-        ArrayList<Integer> ansList = arraySum.getEven(arr);
+        ArrayList<Integer> ansList = ArrayOperations.getEven(arr);
         assertEquals(ansList, Arrays.asList(2,4));
     }
 }
